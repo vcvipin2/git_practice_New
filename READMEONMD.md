@@ -12,8 +12,8 @@ Today we will be covering the following topics:
 4. Topic 4
 
 ## The quote for the day is:
->The quote line 1
->The quote line 2
->The quote line 3
+> The quote line 1 
+> The quote line 2 
+> The quote line 3 
 
 [link google](www.google.com)
