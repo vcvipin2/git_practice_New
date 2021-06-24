@@ -1,7 +1,7 @@
-const randomMessage = (message) => {
-    const messsage = ['Why did the chicken cross the road?','The sky is blue today','I love rain, when I am inside.'];
-    let randomIndex = Math.floor(Math.random() * message.length);
-    console.log(message[randomIndex]);
+const random = ['Why did the chicken cross the road?','Do you know what time it is?','I love rain, when I am inside'];
+var randomMessage = (arr) => {
+    let index = Math.floor(Math.random() * 3);
+    console.log(`Your random message generated is ${arr[index]}`);
 }
 
-randomMessage();
+randomMessage(random);
